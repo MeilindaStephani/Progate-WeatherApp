@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
   temperature: {
     fontSize: 64,
     fontWeight: 'bold',
-    color: '#ff3e3e',
+    color: '#353941',
   },
   weather: {
     flexDirection: 'row',

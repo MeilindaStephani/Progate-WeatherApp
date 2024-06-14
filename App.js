@@ -35,7 +35,7 @@ const App = () => {
       case 'success':
         return <WeatherInfo weatherData={weatherData} />;
       case 'error':
-        return <Text style={styles.errorText}>Something went wrong. Please try again with a correct city name.</Text>;
+        return <Text style={styles.errorText}>Ada yang salah. Silakan coba lagi dengan nama kota yang benar.</Text>;
       default:
         return null;
     }
